@@ -107,21 +107,20 @@ def valik_6(p:list, i:list):
                 print(f"Saab kätte {i[ind]}")
                 ind+=1
 
-#7
-def valik_7(p:list, i:list):
+#9-Top() - T vaeseimad ja rikkamad inimesed/ Т самых бедных и самых богатых человека
+def Top(p:list, i:list):
     """
     """
     while True:
         try:
-            nimi=input("Sisetsa nimi: ")
-            if nimi.isalpha():
-                break
-        except:
-            print("Имя должно быть из букв!")
-    k=i.count(nimi)
-    if k>0:
-        for ind in range(len(i)):
-            if i[ind]==nimi:
-                print(i[ind], p[ind])
+            T=int()
+        except ValueError:
+            print("Sisesta arv!")
 
-#8
+#12- Осуществить сортировку по имени (можно предостваит пользователю выбор от А до Я или от Я до А)
+
+#13- Находить тех кто получает зарплату ниже средней и удалить их из списков.
+
+#14- Отредактировать списки таким образом, чтоб в списке людей имена были написаны с большой буквы, о зарплаты в формате int.
+
+#16 - "Переименовать" каждого третьего человека. Новые имена вводит пользователь.
