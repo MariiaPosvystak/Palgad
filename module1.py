@@ -113,9 +113,10 @@ def Top(p:list, i:list):
     """
     while True:
         try:
-            T=int()
+            T=int(input("Sisestage nende inimeste arv, kelle palka soovite näha."))
         except ValueError:
             print("Sisesta arv!")
+
 
 #12- Осуществить сортировку по имени (можно предостваит пользователю выбор от А до Я или от Я до А)
 
