@@ -138,7 +138,7 @@ def Top(p: list, i: list):
 
 
 #12- Осуществить сортировку по имени (можно предостваит пользователю выбор от А до Я или от Я до А)
-def sort_by_name(p: list, i: list):
+def valik_12(p: list, i: list):
     """ Sorteerib nimekirja nime järgi
     """
     order = input("Vali sorteerimise järjekord: A-Z või Z-A: ").strip().upper()
@@ -154,7 +154,7 @@ def sort_by_name(p: list, i: list):
 
 
 #13- Находить тех кто получает зарплату ниже средней и удалить их из списков.
-def remove_below_average(p: list, i: list):
+def valik_13(p: list, i: list):
     """ Eemaldab nimekirjast inimesed, kelle palk on alla keskmine
     """
     if not p:
@@ -170,7 +170,7 @@ def remove_below_average(p: list, i: list):
 
 
 #14- Отредактировать списки таким образом, чтоб в списке людей имена были написаны с большой буквы, о зарплаты в формате int.
-def format_names_and_salaries(p: list, i: list):
+def valik_14(p: list, i: list):
     """ Formaatib nimed ja palgad
     """
     i[:] = [nimi.capitalize() for nimi in i]
@@ -179,7 +179,7 @@ def format_names_and_salaries(p: list, i: list):
 
 
 #16 - "Переименовать" каждого третьего человека. Новые имена вводит пользователь.
-def rename_every_third(p: list, i: list):
+def valik_16(p: list, i: list):
     """ Uuendab iga kolmanda inimese nime
     """
     for index in range(2, len(i), 3):
