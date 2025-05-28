@@ -1,6 +1,5 @@
 ﻿from multiprocessing import Value
 
-
 p=[]
 i=[]
 
