@@ -92,8 +92,8 @@ def valik_5(p:list, i:list):
     for n in range(0, len(i)):
         for m in range(n, len(i)):
             if eval (str(p[n])+v+str(p[m])):
-                p[n],p[m]=p[m],p[n]
-                i[n],i[m]=i[m],i[n]
+                p[n],p[m]=p[m],p[n] #Меняет местами зарплаты
+                i[n],i[m]=i[m],i[n] #Меняет местами соответствующие имена.
     print(i, p)
 
 #6
